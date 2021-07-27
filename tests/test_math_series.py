@@ -46,12 +46,13 @@ def test_sum_series_4_b():
     assert expected==actual
 
 def test_sum_series_4_c():
-    expected=4
-    actual=sum_series(4,5,3)
+    expected=13
+    actual=sum_series(4,2,3)
     assert expected==actual
 
 def test_sum_series_4_d():
     expected=3
     actual=sum_series(4)
+    assert expected==actual
 
 
